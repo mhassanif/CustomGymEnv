@@ -7,9 +7,8 @@ This project demonstrates the creation of a custom Gymnasium environment for Rei
 ![alt text](utils/screenshot.png)
 
 ## Demo Video
-```
-https://drive.google.com/file/d/11j2hhNSLZNuGT9sk-3PGglSV1LwqpxXw/view?usp=sharing
-```
+
+https://github.com/user-attachments/assets/4d3df787-8a36-4893-9cb7-477ae5d3b6d5
 
 ## Features
 
@@ -60,8 +59,8 @@ maze = [
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone git@github.com:mhassanif/CustomGymEnv.git
+   cd CustomGymEnv
    ```
 2. Run the `main.py` script to test the environment:
 
@@ -70,5 +69,3 @@ maze = [
    ```
 
    This will render the maze and simulate random actions by the agent.
-
----
