@@ -2,7 +2,7 @@ from MazeGameEnv import MazeGameEnv
 from stable_baselines3 import PPO
 
 # Initialize the environment
-env = MazeGameEnv(size=6)
+env = MazeGameEnv(size=8)
 
 # Load the trained model
 model = PPO.load("ppo_dynamic_maze_model", policy="MultiInputPolicy")

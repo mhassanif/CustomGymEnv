@@ -28,7 +28,7 @@ class MazeGameEnv(gym.Env):
         })
 
         # Max steps before truncation
-        self.max_steps = 100
+        self.max_steps = 30
         self.steps = 0
 
         # Initialize Pygame
